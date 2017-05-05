@@ -28,11 +28,11 @@ pGmm->train();
 
 // print results
 for(int a=0; a<SIZE_RECORD; a++) {
-  printf("data#%d => class[%d] :", a, ppInputData[a]->nClass);
-  for(int b=0; b<SIZE_OUTPUT; b++) {
-    printf(" [%d]%.3f ", b, ppInputData[a]->pNormalProb[b]);
-  }
-  printf("\n");
+	printf("data#%d => class[%d] :", a, ppInputData[a]->nClass);
+	for(int b=0; b<SIZE_OUTPUT; b++) {
+		printf(" [%d]%.3f ", b, ppInputData[a]->pNormalProb[b]);
+	}
+	printf("\n");
 }
 printf("\n");
 ```
