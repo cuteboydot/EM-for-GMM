@@ -2,7 +2,7 @@
 Implementation of EM using K-Means(Gaussian Mixture Model)  
 cuteboydot@gmail.com  
 
-referenc : https://www.cs.duke.edu/courses/fall07/cps271/EM.pdf  
+reference : https://www.cs.duke.edu/courses/fall07/cps271/EM.pdf  
 
 E-step :  
 Estimate distribution over labels given a certain fixed model.  
