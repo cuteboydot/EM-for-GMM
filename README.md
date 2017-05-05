@@ -20,7 +20,7 @@ Choose new parameters for model to maximize expected log-likelihood of observed 
 </br>
 
 - usage : train  
-```  
+```cpp  
 // train
 CGMM * pGmm = new CGMM();
 pGmm->init(SIZE_OUTPUT, SIZE_RECORD, SIZE_FEATURE, ppInputData);
@@ -37,7 +37,7 @@ for(int a=0; a<SIZE_RECORD; a++) {
 printf("\n");
 ```
 - usage details: E-step  
-```  
+```cpp  
 // update probability parameters
 void CGMM::e_step()
 {
@@ -83,7 +83,7 @@ void CGMM::e_step()
 }
 ```
 - usage details: M-step  
-```  
+```cpp  
 // assign clustering
 void CGMM::m_step()
 {
